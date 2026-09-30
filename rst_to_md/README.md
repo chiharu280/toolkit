@@ -2,7 +2,7 @@
 
 把 reStructuredText（RST）源文件转成 Markdown。专门针对 **Sphinx 项目**：pandoc 本身处理不了的 Sphinx 专有语法，由本脚本补齐。
 
-来源：`workplace_detection/docs/google-cpp-styleguide/tools/rst_to_md.py`（2026-09-29）。
+来源：Google C++ Style Guide 中文版整理任务。
 
 ## 用途
 

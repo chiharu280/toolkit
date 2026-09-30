@@ -6,7 +6,7 @@
 
 ## 准备
 
-需要可访问的摄像头。本机已创建 `toolkit-camera` conda 环境（Python 3.11），并安装了 `requirements.txt` 中的依赖。在其他机器上可按以下步骤创建：
+需要可访问的摄像头。按以下步骤创建 `toolkit-camera` conda 环境（Python 3.11）并安装依赖：
 
 ```bash
 conda create -n toolkit-camera python=3.11 pip -y

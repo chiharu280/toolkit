@@ -2,7 +2,7 @@
 
 把 PDF 转成分章节的 Markdown。专门针对**中文 PDF 字体 ToUnicode 映射损坏**这一类问题而写。
 
-来源：`workplace_detection/docs/google-cpp-styleguide/tools/pdf_to_md.py`（2026-09-29）。
+来源：Google C++ Style Guide 中文版整理任务。
 
 ## 用途
 
