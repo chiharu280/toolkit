@@ -1,0 +1,26 @@
+# toolkit
+
+用过的工具的归档目录。目的是把散落在各个项目里的脚本集中起来，方便以后查找和复用。
+
+## 约定
+
+每个工具一个独立文件夹，文件夹内包含：
+
+- 工具本体（脚本 / 程序）
+- `README.md` 使用说明，至少说明 **用途** 和 **局限**
+
+从其他项目归档的工具，其原始文件仍留在各自的项目里；改 bug 请改源仓库再同步过来。直接在本目录创建的工具以本目录为维护位置。
+
+## 与知识库协作
+
+本机知识库位于 `/home/xor/knowledgeBase`，toolkit 的项目总览见 `01-Projects/toolkit/项目总览.md`。新增或修改工具时，在这里保存可运行的脚本、依赖和使用说明；遇到经过验证且长期有用的原理、排障方法或工作流程时，按知识库 `AGENTS.md` 和 `INDEX.md` 归档，并在相关工具 README 中注明对应知识文档。仅供当前工具使用的参数和步骤留在工具 README，避免两边重复维护。
+
+## 工具列表
+
+| 工具 | 用途 | 来源 |
+| --- | --- | --- |
+| [pdf_to_md](pdf_to_md/) | 把 PDF 转成分章节 Markdown，专门修复中文 PDF 字体 ToUnicode 映射损坏导致的乱码/丢字 | `workplace_detection/docs/google-cpp-styleguide/tools/` |
+| [rst_to_md](rst_to_md/) | 把 Sphinx 的 reStructuredText 源转成 Markdown，补齐 pandoc 不支持的 `:ref:` 交叉引用和提示块 | `workplace_detection/docs/google-cpp-styleguide/tools/` |
+| [camera_capture](camera_capture/) | 用 OpenCV 从摄像头拍一张照片，或按指定帧率拍摄指定张数 | 本目录新建 |
+
+> 上面两个工具来自同一个任务（Google C++ Style Guide 中文版的 PDF 版与上游 RST 版互相补充），可以配套使用。
