@@ -18,5 +18,6 @@
 | [pdf_to_md](pdf_to_md/) | 把 PDF 转成分章节 Markdown，专门修复中文 PDF 字体 ToUnicode 映射损坏导致的乱码/丢字 | Google C++ Style Guide 中文版整理任务 |
 | [rst_to_md](rst_to_md/) | 把 Sphinx 的 reStructuredText 源转成 Markdown，补齐 pandoc 不支持的 `:ref:` 交叉引用和提示块 | Google C++ Style Guide 中文版整理任务 |
 | [camera_capture](camera_capture/) | 用 OpenCV 从摄像头拍一张照片，或按指定帧率拍摄指定张数 | 本目录新建 |
+| [git_repos](git_repos/) | 跨平台扫描目录中的 Git 仓库并汇总未提交与未跟踪内容 | 本目录新建 |
 
 > 上面两个工具来自同一个任务（Google C++ Style Guide 中文版的 PDF 版与上游 RST 版互相补充），可以配套使用。
