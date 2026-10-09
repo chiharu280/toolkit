@@ -11,13 +11,19 @@
 
 从其他项目归档的工具，其原始文件仍留在各自的项目里；改 bug 请改源仓库再同步过来。直接在本目录创建的工具以本目录为维护位置。
 
-## 工具列表
+## 常用工具
 
 | 工具 | 用途 | 来源 |
 | --- | --- | --- |
-| [pdf_to_md](pdf_to_md/) | 把 PDF 转成分章节 Markdown，专门修复中文 PDF 字体 ToUnicode 映射损坏导致的乱码/丢字 | Google C++ Style Guide 中文版整理任务 |
-| [rst_to_md](rst_to_md/) | 把 Sphinx 的 reStructuredText 源转成 Markdown，补齐 pandoc 不支持的 `:ref:` 交叉引用和提示块 | Google C++ Style Guide 中文版整理任务 |
 | [camera_capture](camera_capture/) | 用 OpenCV 从摄像头拍一张照片，或按指定帧率拍摄指定张数 | 本目录新建 |
 | [git_repos](git_repos/) | 跨平台扫描目录中的 Git 仓库并汇总未提交与未跟踪内容 | 本目录新建 |
+| [bmp_to_png](bmp_to_png/) | 将 24/32 位 BMP 截图转换为 PNG | Azul_SDL2 |
 
-> 上面两个工具来自同一个任务（Google C++ Style Guide 中文版的 PDF 版与上游 RST 版互相补充），可以配套使用。
+## 历史归档
+
+以下脚本针对 Google C++ Style Guide 中文版的特定 PDF 或 RST 文件清单，保留供原任务复现，不作为通用转换入口。当前环境缺少其 Python 依赖，未重新完成端到端转换。
+
+| 工具 | 原任务 | 主要限制 |
+| --- | --- | --- |
+| [pdf_to_md](archive/pdf_to_md/) | 从指定中文 PDF 恢复章节 Markdown | 字体 CID 映射、版式阈值和章节映射写死 |
+| [rst_to_md](archive/rst_to_md/) | 转换指定 Sphinx RST 文件集 | 文件清单、输出名和引用解析规则写死 |

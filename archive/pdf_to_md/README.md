@@ -39,4 +39,4 @@ python pdf_to_md.py <input.pdf> <out_dir>
 
 ## 相关
 
-同源任务中还有一个 `rst_to_md.py`（把 reStructuredText 经 pandoc 转 Markdown，并改写 Sphinx `:ref:` 交叉引用），当前未收入本目录。
+同源任务中还有一个 `rst_to_md.py`（把 reStructuredText 经 pandoc 转 Markdown，并改写 Sphinx `:ref:` 交叉引用），现同存于 `archive/rst_to_md/`。

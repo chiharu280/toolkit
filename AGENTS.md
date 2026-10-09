@@ -21,8 +21,9 @@
 
 ## 归档来源
 
-- `pdf_to_md/pdf_to_md.py`：`workplace_detection/docs/google-cpp-styleguide/tools/pdf_to_md.py`
-- `rst_to_md/rst_to_md.py`：`workplace_detection/docs/google-cpp-styleguide/tools/rst_to_md.py`
+- `archive/pdf_to_md/pdf_to_md.py`：`workplace_detection/docs/google-cpp-styleguide/tools/pdf_to_md.py`
+- `archive/rst_to_md/rst_to_md.py`：`workplace_detection/docs/google-cpp-styleguide/tools/rst_to_md.py`
+- `bmp_to_png/bmp_to_png.py`：`Azul_SDL2/scripts/bmp_to_png.py`
 
 ## Git 提交与同步
 
