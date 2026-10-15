@@ -17,6 +17,7 @@
 | --- | --- | --- |
 | [camera_capture](camera_capture/) | 用 OpenCV 从摄像头拍一张照片，或按指定帧率拍摄指定张数 | 本目录新建 |
 | [git_repos](git_repos/) | 跨平台扫描目录中的 Git 仓库并汇总未提交与未跟踪内容 | 本目录新建 |
+| [disk_cache_audit](disk_cache_audit/) | 只读统计 Linux 用户目录和常见缓存，标记清理风险 | 本目录新建 |
 | [bmp_to_png](bmp_to_png/) | 将 24/32 位 BMP 截图转换为 PNG | Azul_SDL2 |
 
 ## 历史归档
